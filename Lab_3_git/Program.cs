@@ -193,7 +193,6 @@ namespace Lab_2
 
             Stopwatch sw1 = new Stopwatch();
             sw1.Start(); //отсчёт времени
-                            //OutputArray(GnomikSort(resArray));
             Console.WriteLine("Сортировка гномиком:");
             OutputArray(GnomikSort(resArray));
             Console.WriteLine($"Время: {sw1.Elapsed.TotalMilliseconds} мс");
