@@ -78,7 +78,6 @@ namespace Lab_2
             int[] copy = new int[a.Length];
             for (int i = 0; i < a.Length; i++)
                 copy[i] = a[i];
-            //Console.WriteLine(string.Join(" ", copy));
             return copy;
 
         }
@@ -193,7 +192,6 @@ namespace Lab_2
 
             Stopwatch sw1 = new Stopwatch();
             sw1.Start(); //отсчёт времени
-                            //OutputArray(GnomikSort(resArray));
             Console.WriteLine("Сортировка гномиком:");
             OutputArray(GnomikSort(resArray));
             Console.WriteLine($"Время: {sw1.Elapsed.TotalMilliseconds} мс");
